@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background-color: #174368;
+  display: block;
+  height: 220px;
+}
+
+.header img {
+  width: 9.33%;
+}
+
+.header a {
+  color: white;
+}
+
+.container {
+  display: block;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.container h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.container h2 {
+  border: 1px solid #174368;
+  box-shadow: 1px 3px 6px #174368;
+  font-size: 24pt;
+  text-align: center;
+  color: #174368;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+.container h4 {
+  font-size: 20pt;
+}
+
+.container p {
+  font-size: 16pt;
+  padding: 8px;
+}
+
+.container object {
+  box-shadow: 4px 4px 10px #3d3d3d;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.content ul {
+  margin-top: 10px;
+}
+
+.content a {
+  color: #174368;
+}
+
+.content li, p {
+  font-size: 14pt;
+  padding: 2px;
+}
+
+.section {
+  padding: 10px;
+  margin-top: -1510px;
+  position: absolute;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #174368;
+  color: white;
+  padding-top: 80px;
+  height: 60px;
+}
+
+footer p {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

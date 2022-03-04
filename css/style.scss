@@ -1,0 +1,107 @@
+// Variables
+$my-blue: rgb(23, 67, 104);
+// Padrão de Estilos
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+} // Remove Style Lists
+
+a:link {
+    text-decoration: none;
+} // Remove Underline Links
+
+// Estilho do Cabeçalho
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(23, 67, 104);
+    display: block;
+    height: 220px;
+}
+
+.header img {
+    width: 9.33%;
+}
+
+.header a {
+    color: white;
+}
+
+//  Estilo do Corpo do Site
+.container {
+    display: block;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.container h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container h2 {
+    border: 1px solid $my-blue;
+    box-shadow: 1px 3px 6px $my-blue;
+    font-size: 24pt;
+    text-align: center;
+    color: $my-blue;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+// Style Equipe Técnica
+.container h4 {
+    font-size: 20pt;
+}
+
+.container p{
+    font-size: 16pt;
+    padding: 8px;
+}
+
+.container object {
+    box-shadow: 4px 4px 10px rgb(61, 61, 61);
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content ul {
+    margin-top: 10px;
+}
+
+.content a {
+    color: rgb(23, 67, 104);
+}
+
+.content li, p {
+    font-size: 14pt;
+    padding: 2px;
+}
+
+// Style Section Midias
+.section {
+    padding: 10px;
+    margin-top: -1510px;
+    position: absolute;
+}
+
+// Style Page Footer
+footer {
+    margin-top: 30px;
+    background-color: $my-blue;
+    color: white;
+    padding-top: 80px;
+    height: 60px;
+}
+
+footer p {
+    text-align: center;
+}
+
